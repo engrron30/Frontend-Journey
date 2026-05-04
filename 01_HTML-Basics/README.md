@@ -93,3 +93,92 @@ You can add _div_ for sections and the same results are going to be observed.
 _div_ can be intimidating without trying to understand what it does, right?
 Come to think of it as a division or a block of the display. For example, let's try to create something usable this time.
 A web page with some partitions inside a box. Let's say enclose everything in a box, where
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Engineer's Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            padding: 20px;
+        }
+
+        .box {
+            border: 2px solid black;
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .header {
+            background: lightblue;
+        }
+
+        .menu {
+            background: lightgreen;
+        }
+
+        .content {
+            background: lightyellow;
+        }
+
+        .card {
+            background: pink;
+        }
+
+        .footer {
+            background: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="box">
+
+        <!-- Header -->
+        <div class="box header">
+            <h1>Welcome, Engineer</h1>
+        </div>
+
+        <!-- Menu -->
+        <div class="box menu">
+            Home | About | Contact
+        </div>
+
+        <!-- Content Area -->
+        <div class="box content">
+
+            <div class="box card">
+                <h2>Card 1</h2>
+                <p>This is inside a div.</p>
+            </div>
+
+            <div class="box card">
+                <h2>Card 2</h2>
+                <p>This is another div.</p>
+            </div>
+
+            <div class="box card">
+                <h2>Card 3</h2>
+                <p>Everything is boxes using div.</p>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="box footer">
+            Footer Section
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
+
