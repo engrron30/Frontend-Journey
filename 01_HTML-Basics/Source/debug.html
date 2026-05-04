@@ -1,26 +1,85 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Engineer's Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            padding: 20px;
+        }
+
+        .box {
+            border: 2px solid black;
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .header {
+            background: lightblue;
+        }
+
+        .menu {
+            background: lightgreen;
+        }
+
+        .content {
+            background: lightyellow;
+        }
+
+        .card {
+            background: pink;
+        }
+
+        .footer {
+            background: lightgray;
+        }
+    </style>
 </head>
+
 <body>
-<body>
 
-    <h1>Job Experience</h1>
-    <p>Semiconductor Engineer</p>
-    <p>Software Engineer (Backend)</p>
-    <p>System Administrator</p>
+    <!-- Main Container -->
+    <div class="box">
 
-    <h1>Programming Languages</h1>
-    <p>C/C++</p>
-    <p>Python</p>
-    <p>Simula (who still use simula btw)</p>
+        <!-- Header -->
+        <div class="box header">
+            <h1>Welcome, Engineer!</h1>
+        </div>
 
-    <h2>Unspoken Talents</h2>
-    <p>Guitar</p>
-    <p>Drums</p>
-    <p>Keyboard/Piano</p>
-    <p>But Not Singing</p>
+        <!-- Menu -->
+        <div class="box menu">
+            Home | About | Contact
+        </div>
 
-</body>
+        <!-- Content Area -->
+        <div class="box content">
+
+            <div class="box card">
+                <h2>Card 1</h2>
+                <p>This is inside a div.</p>
+            </div>
+
+            <div class="box card">
+                <h2>Card 2</h2>
+                <p>This is another div.</p>
+            </div>
+
+            <div class="box card">
+                <h2>Card 3</h2>
+                <p>Everything is boxes using div.</p>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="box footer">
+            Footer Section
+        </div>
+
+    </div>
+
 </body>
 </html>
