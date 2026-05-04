@@ -21,7 +21,7 @@ Start with a simple HTML. Open this file to display it in your browser <br>
 
 ![First Page](Assets/01_First-Page.png)
 
-You see the usage of <h1> and <p> tags. You can use h2, h3, ... to create subheadings. <br>
+You see the usage of _h1_ and _p_ tags. You can use h2, h3, ... to create subheadings. <br>
 
 ```
 <body>
