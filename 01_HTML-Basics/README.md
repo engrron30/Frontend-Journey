@@ -1,5 +1,9 @@
 # HTML Basics
 
+In this project, we are going to display and experiment HTML tags and elements.
+
+## Simple HTML Page
+
 Start with a simple HTML. Open this file to display it in your browser <br>
 
 ```
@@ -16,4 +20,6 @@ Start with a simple HTML. Open this file to display it in your browser <br>
 ```
 
 ![First Page](Assets/01_First-Page.png)
+
+
 
