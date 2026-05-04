@@ -1,10 +1,18 @@
 # HTML Basics
 
-In this project, we are going to display and experiment HTML tags and elements.
+In this project, we are going to display and experiment HTML documents.
+HTML or HyperText Markup Language is consist of a series of elements that act as a building
+blocks of a web page. The following are the core components of HTML:
+    1. __Tag__ - keywords that are enclosed in angle brackets (e.g., <title>, <h1>, <p>);
+    2. __Elements__ - consist of the tags and the content;
+    ![Element-Parts](Assets/00_HTML-Element-Parts.jpg)
+    &emsp;&emsp;&emsp;_Reference_: _https://www.tutorialspoint.com/html/html_elements.htm_ 
+    3. __Attributes__ - placed inside the opening tag to provide extra information or settings for an element (e.g., <a href="url"> or <img src="image.jpg">)
 
 ## Simple HTML Page
 
-Start with a simple HTML. Open this file to display it in your browser <br>
+Start with a simple HTML. We are going to create a web page for passionate engineers.
+This page will be entitled as "Engineer's Page" denoted by the \<title\> tags.
 
 ```
 <!DOCTYPE html>
@@ -70,5 +78,11 @@ You can add _div_ for sections and the same results are going to be observed. <b
         <p>h3_p2</p>
         <p>h3_p3</p>
     </div>
+</body>
 ```
 
+_div_ can be intimidating without trying to understand what it does, right?
+Come to think of it as a division or a block of the display. For example, let's try to create something usable this time.
+A web page with some partitions for the following:
+    1. header block;
+    2. subheader block;
