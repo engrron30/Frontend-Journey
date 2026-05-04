@@ -1,0 +1,18 @@
+# HTML Basics
+
+Start with a simple HTML. <br>
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>Hello Ronald!</h1>
+    <p>I am learning HTML.</p>
+</body>
+</html>
+```
+
+
