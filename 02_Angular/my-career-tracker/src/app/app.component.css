@@ -1,0 +1,14 @@
+h1 {
+  color: blue;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 20px;
+}
