@@ -3,11 +3,11 @@
 In this project, we are going to display and experiment HTML documents.
 HTML or HyperText Markup Language is consist of a series of elements that act as a building
 blocks of a web page. The following are the core components of a HTML document: <br> <br>
-    &emsp;1. __Tag__ - keywords that are enclosed in angle brackets (e.g., <title>, <h1>, <p>); <br>
+    &emsp;1. __Tag__ - keywords that are enclosed in angle brackets (e.g., /<title/>, /<h1/>, /<p/>); <br>
     &emsp;2. __Elements__ - consist of the tags and the content; <br>
     &emsp;![Element-Parts](Assets/00_HTML-Element-Parts.jpg)
     &emsp;&emsp;&emsp;_Reference_: _https://www.tutorialspoint.com/html/html_elements.htm_ <br>
-    &emsp;3. __Attributes__ - placed inside the opening tag to provide extra information or settings for an element (e.g., <a href="url"> or <img src="image.jpg">)
+    &emsp;3. __Attributes__ - placed inside the opening tag to provide extra information or settings for an element (e.g., /<a href="url"/> or /<img src="image.jpg"/>)
 
 ## Simple HTML Page
 
