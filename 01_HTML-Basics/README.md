@@ -19,7 +19,56 @@ Start with a simple HTML. Open this file to display it in your browser <br>
 </html>
 ```
 
-![First Page](Assets/01_First-Page.png)
+![Section 1](Assets/01_First-Page.png)
 
+You see the usage of _h1_ and _p_ tags. You can use h2, h3, ... to create subheadings. <br>
 
+```
+<body>
+
+    <h1>Head 1</h1>
+    <p>h1_p1</p>
+    <p>h1_p2</p>
+    <p>h2_p3</p>
+
+    <h1>Head 2</h1>
+    <p>h2_p1</p>
+    <p>h2_p2</p>
+    <p>h3_p3</p>
+
+    <h2>Head 3</h2>
+    <p>h3_p1</p>
+    <p>h3_p2</p>
+    <p>h3_p3</p>
+
+</body>
+```
+
+![Section 2](Assets/02_Multiple-Headers-and-Points.png)
+
+You can add _div_ for sections and the same results are going to be observed. <br>
+
+```
+<body>
+    <div>
+        <h1>Head 1</h1>
+        <p>h1_p1</p>
+        <p>h1_p2</p>
+        <p>h2_p3</p>
+    </div>
+
+    <div>
+        <h1>Head 2</h1>
+        <p>h2_p1</p>
+        <p>h2_p2</p>
+        <p>h2_p3</p>
+    </div>
+
+    <div>
+        <h2>Head 3</h2>
+        <p>h3_p1</p>
+        <p>h3_p2</p>
+        <p>h3_p3</p>
+    </div>
+```
 
