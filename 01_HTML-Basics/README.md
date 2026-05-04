@@ -6,7 +6,7 @@ Start with a simple HTML. Open this file to display it in your browser <br>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Page</title>
+    <title>Hello, User!</title>
 </head>
 <body>
     <h1>Hello User!</h1>
