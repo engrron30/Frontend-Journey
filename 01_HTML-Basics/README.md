@@ -58,35 +58,38 @@ By using an incrementing heading tags, the fonts get smaller and smallet to emph
 
 ![Section 2](Assets/02_Multiple-Headers-and-Points.png)
 
-You can add _div_ for sections and the same results are going to be observed. <br>
+You can add _div_ for sections and the same results are going to be observed.
 
 ```
 <body>
     <div>
-        <h1>Head 1</h1>
-        <p>h1_p1</p>
-        <p>h1_p2</p>
-        <p>h2_p3</p>
+        <h1>Job Experience</h1>
+        <p>Semiconductor Engineer</p>
+        <p>Software Engineer (Backend)</p>
+        <p>System Administrator</p>
     </div>
 
     <div>
-        <h1>Head 2</h1>
-        <p>h2_p1</p>
-        <p>h2_p2</p>
-        <p>h2_p3</p>
+        <h1>Programming Languages</h1>
+        <p>C/C++</p>
+        <p>Python</p>
+        <p>Simula (who still use simula btw)</p>
     </div>
 
     <div>
-        <h2>Head 3</h2>
-        <p>h3_p1</p>
-        <p>h3_p2</p>
-        <p>h3_p3</p>
+        <h2>Unspoken Talents</h2>
+        <p>Guitar</p>
+        <p>Drums</p>
+        <p>Keyboard/Piano</p>
+        <p>But Not Singing</p>
+    </div>
+
+    <div class="box footer">
+        Footer Section
     </div>
 </body>
 ```
 
 _div_ can be intimidating without trying to understand what it does, right?
 Come to think of it as a division or a block of the display. For example, let's try to create something usable this time.
-A web page with some partitions for the following:
-    1. header block;
-    2. subheader block;
+A web page with some partitions inside a box. Let's say enclose everything in a box, where
