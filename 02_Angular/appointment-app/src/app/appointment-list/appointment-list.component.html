@@ -9,3 +9,10 @@
     <input type="date" [(ngModel)]="newAppointmentDate">
     <button (click)="addAppointment()">Save</button>
 </div>
+
+<ul>
+    <li *ngFor="let appointment of appointments; index as i">
+        {{ appointment.id }}: {{ appointment.title }} - {{ appointment.date | date:'shortDate' }}
+        <button (click)="deleteAppointment(i)">Delete</button>
+    </li>
+</ul>

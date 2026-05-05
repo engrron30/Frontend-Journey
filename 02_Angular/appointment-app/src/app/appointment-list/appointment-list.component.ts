@@ -15,7 +15,7 @@ export class AppointmentListComponent {
 
   newAppointmentTitle: string = "";
   newAppointmentDate: Date = new Date();
-  appointment: Appointment[] = [];
+  appointments: Appointment[] = [];
 
   addAppointment() {
     if (this.newAppointmentTitle.trim().length && this.newAppointmentDate) {
@@ -27,12 +27,16 @@ export class AppointmentListComponent {
 
       console.log('Title:', this.newAppointmentTitle);
       console.log('Date:', this.newAppointmentDate);
-      this.appointment.push(newAppoint);
+      this.appointments.push(newAppoint);
     } else {
       alert(this.newAppointmentTitle + " " + this.newAppointmentDate);
     }
 
     this.newAppointmentTitle = "";
     this.newAppointmentDate = new Date();
+  }
+
+  deleteAppointment(index: number) {
+    this.appointments.splice(index, 1);
   }
 }
