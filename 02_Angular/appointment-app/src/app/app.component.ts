@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Appointment } from './models/appointment';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'appointment-app';
+  appointment: Appointment = {
+    id: 2,
+    title: 'Code more!',
+    date: new Date('2024-07-01T10:00:00')
+  };
 }
